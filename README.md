@@ -17,7 +17,7 @@ VLSI techniques allows us to design ALUs that are faster in execution of operati
   
 - _Flags_: The ALU generates flags for decision-making
   Zero(Z) - set when result = 0, 
-  Carry(C) - set when addition or subtraction generates a carry/borrow, 
+  Carry(C) - set when addition or subtraction generates a carry/borrow         
   Overflow(V) - set when signed arithmetic overflows the representable range, 
   Negative(N) - reflects MSB of result (sign bit in two’s complement), 
   Parity (P) - set if the number of 1s in result is even
