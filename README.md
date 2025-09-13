@@ -9,14 +9,19 @@ VLSI techniques allows us to design ALUs that are faster in execution of operati
 **Specifications**
 
 - _Bit-width_: This project compares the results of 16 vs 32 vs 64-bit ALU
+  
 - _Inputs_:
+  
   Operands - A, B
+  
   Opcode - depending on the number of operations
+  
   Control Signals
 - _Operations_: The operations (arithmetic operations, logical operations, shift operations, comparison operations) are selected based on the control signal
+  
 - _Flags_: The ALU generates flags for decision-making
-  Zero(Z) - set when result = 0
-  Carry(C) - set when addition or subtraction generates a carry/borrow
-  Overflow(V) - set when signed arithmetic overflows the representable range
-  Negative(N) - reflects MSB of result (sign bit in two’s complement)
+  Zero(Z) - set when result = 0, 
+  Carry(C) - set when addition or subtraction generates a carry/borrow, 
+  Overflow(V) - set when signed arithmetic overflows the representable range, 
+  Negative(N) - reflects MSB of result (sign bit in two’s complement), 
   Parity (P) - set if the number of 1s in result is even
