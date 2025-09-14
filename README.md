@@ -23,3 +23,5 @@ VLSI techniques allow us to design ALUs that are faster in execution of operatio
   Overflow(V) - set when signed arithmetic overflows the representable range   
   Negative(N) - reflects MSB of result (sign bit in two’s complement)   
   Parity (P) - set if the number of 1s in result is even
+
+- _Target Frequency_: Based on the system requirements, this ALU will run at 200MHz. So the critical path can finish within 5ns (since 1/200 MHz = 5ns).
